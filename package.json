@@ -1,0 +1,22 @@
+{
+    "name": "theme-slate",
+    "displayName": "vscode-theme-slate",
+    "description": "A peaceful vscode theme",
+    "version": "0.1.0",
+    "publisher": "egoist",
+    "engines": {
+        "vscode": "^1.10.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Slate",
+                "uiTheme": "vs-dark",
+                "path": "./themes/slate.tmTheme"
+            }
+        ]
+    }
+}
